@@ -8,7 +8,7 @@ for(let indiceFilas = 0; indiceFilas < filas; indiceFilas++){
     document.write(`<tr>`);
     for(let indiceColumnas = 0; indiceColumnas < columnas; indiceColumnas++){
         document.write(`<td>${totalCeldas}</td>`);
-        totalCeldas--; // totalCeldas = totalCeldas - 1
+        totalCeldas--; 
     }
     document.write(`</tr>`);
 }
