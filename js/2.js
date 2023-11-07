@@ -1,4 +1,4 @@
-var nota = prompt("Ingrese una nota (número de 0 a 10):");
+const nota = prompt("Ingrese una nota (número de 0 a 10):");
 
 if (!isNaN(nota) && nota >= 0 && nota <= 10) {
     nota = parseFloat(nota);
